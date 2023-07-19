@@ -1,0 +1,16 @@
+// html {
+//     background-color: var(--profify-color-white);
+// }
+// body {
+//     background-color: var(--profify-color-white);
+// }
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--profify-color-white);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--profify-color-blue-dark);
+}

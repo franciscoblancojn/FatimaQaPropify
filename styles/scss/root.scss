@@ -1,0 +1,48 @@
+:root {
+    --profify-color-gray-extra-dark: #707070;
+    --profify-color-gray-dark: #807e7e;
+    --profify-color-gray: #929292;
+    --profify-color-gray-light: #bdbdbd;
+    --profify-color-gray-extra-light: #eaeaea;
+
+    --profify-color-white: #ffffff;
+    --profify-color-white-dark: #fbfbfc;
+
+    --profify-color-pink: #df6475;
+    --profify-color-yellow: #faff82;
+    --profify-color-orange: #ffbc00;
+    --profify-color-green: #5eff00;
+
+    --profify-color-black: #000000;
+    --profify-color-black-light: #3d3d3d;
+
+    --profify-color-blue-dark: #001a4f;
+    --profify-color-blue-light: #adc6fa;
+
+    // Shadow
+    --profify-color-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    --profify-color-shadow-2: 2px 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+
+    /*Fuentes Botones*/
+    --profify-font-button-1: normal 900 1rem/1.2rem 'Manrope';
+    --profify-font-button-2: normal 700 0.9rem/1.5rem 'Manrope';
+    --profify-font-button-3: normal 700 0.8rem/1.5rem 'Manrope';
+    /*Fuentes Textos*/
+    --profify-font-text-1: normal 900 1rem/1.8rem 'Manrope';
+    --profify-font-text-2: normal 900 0.938rem/1.8rem 'Manrope';
+    --profify-font-text-3: normal 700 0.75rem/1.8rem 'Manrope';
+    --profify-font-text-4: normal 700 0.625rem/1.8rem 'Manrope';
+    /*Fuentes Titulos*/
+    --profify-font-title-1: normal 900 2.5rem/2.75rem 'Manrope';
+    --profify-font-title-2: normal 900 1.875rem/1.95rem 'Manrope';
+    --profify-font-title-3: normal 700 0.938rem/1rem 'Manrope';
+    --profify-font-title-4: normal 700 0.72rem/1rem 'Manrope';
+    --profify-font-title-5: normal 700 0.625rem/1rem 'Manrope';
+
+    --fenext-size-menu-top: 3.5rem;
+    --fenext-size-menu-left-max: max(15rem, 15vw);
+    --fenext-size-container-custom: 70rem;
+}
+html {
+    font-family: 'Manrope';
+}
