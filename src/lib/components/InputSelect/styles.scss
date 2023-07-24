@@ -1,0 +1,36 @@
+.fenext-select {
+    .fenext-input-content-icon {
+        svg {
+            color: var(--profify-color-blue-dark);
+        }
+    }
+
+    .fenext-select-option {
+        font-family: var(--fenext-font-global);
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--profify-color-gray-extra-dark);
+        padding: 0.8rem 1.2rem;
+        cursor: pointer;
+        position: relative;
+        background: var(--profify-color-white);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 0.1rem;
+        &:hover {
+            background: var(--profify-color-gray-extra-light);
+        }
+    }
+
+    .fenext-select-list-options {
+        background: var(--profify-color-white);
+        position: absolute;
+        width: 100%;
+        border-radius: 0.2rem;
+        padding: 1rem 0;
+        z-index: 1;
+        color: var(--profify-color-gray-extra-dark);
+        overflow: auto;
+    }
+}
