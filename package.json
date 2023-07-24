@@ -26,7 +26,7 @@
         "lint-next": "next lint --no-cache",
         "lint": "npx eslint src",
         "lint:fix": "npm run lint -- --fix",
-        "prettier": "npx prettier src styles '!**/*.stories.tsx' --check",
+        "prettier": "npx prettier src styles --check",
         "prettier:fix": "npm run prettier -- --write",
         "format": "npm run prettier:fix && npm run lint:fix",
         "fle": "npm run format && npm run lint && npm run export",

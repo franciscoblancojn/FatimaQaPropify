@@ -10,10 +10,9 @@ export default {
 const Button_: Story<ButtonProps> = (args) => <Button {...args} />;
 export const Primary = Button_.bind({});
 Primary.args = {
-    children:"test",
-    full:false,
-    size:"extra-small",
-    styleTemplate:"btn1",
-    disabled:false,
-    
+    children: 'test',
+    full: false,
+    size: 'extra-small',
+    styleTemplate: 'btn1',
+    disabled: false,
 } as ButtonProps;

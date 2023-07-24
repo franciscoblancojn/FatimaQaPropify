@@ -10,9 +10,9 @@ export default {
 const Text_: Story<TextProps> = (args) => <Text {...args} />;
 export const Primary = Text_.bind({});
 Primary.args = {
-    children:"Hola",
-    className:"",
-    tag:"p",
-    
-    styleTemplate:"Text1",
+    children: 'Hola',
+    className: '',
+    tag: 'p',
+
+    styleTemplate: 'Text1',
 } as TextProps;
