@@ -225,4 +225,21 @@ html {
     overflow: auto;
 }
 
+.fenext-input-checkbox .fenext-input-checkbox-text {
+    font-family: var(--fenext-font-global);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--profify-color-gray-extra-light);
+}
+.fenext-input-checkbox .fenext-input-checkbox-box {
+    color: var(--profify-color-white);
+    border-radius: 0.3rem;
+    border-color: var(--profify-color-gray-extra-dark);
+}
+.fenext-input-checkbox:has(.fenext-input-checkbox-input:checked)
+    .fenext-input-checkbox-box {
+    background: var(--profify-color-pink);
+    border-color: var(--profify-color-pink);
+}
+
 /*# sourceMappingURL=style.css.map */
