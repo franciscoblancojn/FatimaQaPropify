@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 :root {
-  --fenext-font-global: "Manrope";
+  --fenext-font-global: "Inter" ;
 }
 
 ::-webkit-scrollbar {
@@ -18,10 +18,12 @@
 
 :root {
   --profify-color-gray-extra-dark: #707070;
+  --profify-color-raven-black:#3D3D3D;
   --profify-color-gray-dark: #807e7e;
   --profify-color-gray: #929292;
   --profify-color-gray-light: #bdbdbd;
   --profify-color-gray-extra-light: #eaeaea;
+  --profify-color-gray:#808080;
   --profify-color-white: #ffffff;
   --profify-color-white-dark: #fbfbfc;
   --profify-color-pink: #df6475;
@@ -136,6 +138,50 @@ html {
 .fenext-btn.btn6:hover {
   background-color: var(--profify-color-pink);
   color: var(--profify-color-white);
+}
+
+.fenext-text {
+  font-family: var(--fenext-font-global);
+}
+.fenext-text.Title1 {
+  font-weight: 700;
+  font-size: 4.6rem;
+}
+.fenext-text.Title2 {
+  font-weight: 700;
+  font-size: 3.7rem;
+}
+.fenext-text.Title3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.fenext-text.Title4 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+.fenext-text.Title5 {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.fenext-text.Text1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.fenext-text.Text2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.fenext-text.Text3 {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.fenext-text.Text4 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.fenext-text.Text5 {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

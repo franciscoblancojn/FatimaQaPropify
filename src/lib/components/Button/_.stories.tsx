@@ -14,5 +14,6 @@ Primary.args = {
     full:false,
     size:"extra-small",
     styleTemplate:"btn1",
-    disabled:false
+    disabled:false,
+    
 } as ButtonProps;
