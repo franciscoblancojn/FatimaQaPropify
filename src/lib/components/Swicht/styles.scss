@@ -1,0 +1,15 @@
+.fenext-input-swich {
+    background-color: var(--profify-color-smoke-screen);
+    --size-cicle: 1.5rem;
+    .fenext-input-swich-circle {
+        background-color: var(--profify-color-white);
+        box-shadow: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+        transform: scale(1.5);
+    }
+    &:has(.fenext-input-swich-input:checked) {
+        background-color: var(--profify-color-blue-dark);
+        .fenext-input-swich-circle {
+            transform: translateX(175%) scale(1.5);
+        }
+    }
+}
