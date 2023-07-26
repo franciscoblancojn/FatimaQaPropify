@@ -1,6 +1,4 @@
 .fenext-menu {
-
-
     .fenext-menu-item-a {
         font-family: var(--fenext-font-global);
         font-size: 1.3rem;
@@ -9,13 +7,11 @@
         cursor: pointer;
         color: var(--profify-color-blue-dark);
 
-
         .fenext-menu-item-a-icon {
             svg {
                 color: var(--profify-color-blue-dark);
             }
         }
-
 
         &:hover {
             color: var(--profify-color-pink);
@@ -24,17 +20,13 @@
                 color: var(--profify-color-pink);
 
                 svg {
-
                     color: var(--profify-color-pink);
                 }
             }
         }
-
-
     }
 
     .fenext-collapse-body {
-
         .fenext-menu-item,
         .fenext-collapse-header {
             background: var(--profify-color-jupiter);
