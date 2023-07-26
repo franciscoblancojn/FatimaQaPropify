@@ -26,6 +26,7 @@
     --profify-color-gray: #808080;
     --profify-color-smoke-screen: #aeaeae;
     --profify-color-pixel-white: #dbdbdb;
+    --profify-color-jupiter: #e2e2e2;
     --profify-color-white: #ffffff;
     --profify-color-white-dark: #fbfbfc;
     --profify-color-pink: #df6475;
@@ -258,6 +259,31 @@ html {
 .fenext-input-swich:has(.fenext-input-swich-input:checked)
     .fenext-input-swich-circle {
     transform: translateX(175%) scale(1.5);
+}
+
+.fenext-menu .fenext-menu-item-a {
+    font-family: var(--fenext-font-global);
+    font-size: 1.3rem;
+    font-weight: 700;
+    gap: 1.3rem;
+    cursor: pointer;
+    color: var(--profify-color-blue-dark);
+}
+.fenext-menu .fenext-menu-item-a .fenext-menu-item-a-icon svg {
+    color: var(--profify-color-blue-dark);
+}
+.fenext-menu .fenext-menu-item-a:hover {
+    color: var(--profify-color-pink);
+}
+.fenext-menu .fenext-menu-item-a:hover .fenext-menu-item-a-icon {
+    color: var(--profify-color-pink);
+}
+.fenext-menu .fenext-menu-item-a:hover .fenext-menu-item-a-icon svg {
+    color: var(--profify-color-pink);
+}
+.fenext-menu .fenext-collapse-body .fenext-menu-item,
+.fenext-menu .fenext-collapse-body .fenext-collapse-header {
+    background: var(--profify-color-jupiter);
 }
 
 /*# sourceMappingURL=style.css.map */
