@@ -286,4 +286,22 @@ html {
     background: var(--profify-color-jupiter);
 }
 
+.fenext-modal-base-bg {
+    opacity: 0.42;
+    background: var(--profify-color-black);
+}
+
+.fenext-modal-base-close-center {
+    color: var(--profify-color-jupiter);
+}
+.fenext-modal-base-close-center:hover {
+    color: var(--profify-color-black);
+}
+
+.fenext-modal-base .fenext-modal-base-content {
+    background: var(--profify-color-white);
+    font-family: var(--fenext-font-global);
+    color: var(--profify-color-gray);
+}
+
 /*# sourceMappingURL=style.css.map */

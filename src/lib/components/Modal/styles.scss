@@ -1,0 +1,20 @@
+.fenext-modal-base-bg {
+    opacity: 0.42;
+    background: var(--profify-color-black);
+}
+
+.fenext-modal-base-close-center {
+    color: var(--profify-color-jupiter);
+    &:hover {
+        color: var(--profify-color-black);
+    }
+}
+
+.fenext-modal-base {
+    .fenext-modal-base-content {
+        //modal
+        background: var(--profify-color-white);
+        font-family: var(--fenext-font-global);
+        color: var(--profify-color-gray);
+    }
+}
