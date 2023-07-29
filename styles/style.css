@@ -27,6 +27,7 @@
     --profify-color-smoke-screen: #aeaeae;
     --profify-color-pixel-white: #dbdbdb;
     --profify-color-jupiter: #e2e2e2;
+    --profify-color-frosty-fog: #dee1e8;
     --profify-color-white: #ffffff;
     --profify-color-white-dark: #fbfbfc;
     --profify-color-pink: #df6475;
@@ -302,6 +303,23 @@ html {
     background: var(--profify-color-white);
     font-family: var(--fenext-font-global);
     color: var(--profify-color-gray);
+}
+
+.fenext-back {
+    border-radius: 1rem;
+    background: var(--profify-color-frosty-fog);
+    width: auto;
+    display: inline-flex;
+    padding: 0.7rem 1.1rem;
+}
+.fenext-back svg {
+    color: var(--profify-color-blue-dark);
+}
+.fenext-back .fenext-back-content {
+    font-family: var(--fenext-font-global);
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: var(--profify-color-blue-dark);
 }
 
 /*# sourceMappingURL=style.css.map */
