@@ -1,0 +1,16 @@
+.fenext-user {
+    .fenext-user-letter {
+    }
+    .fenext-user-name {
+        font-family: var(--fenext-font-global);
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var (--profify-color-black);
+    }
+    .fenext-user-email {
+        font-family: var(--fenext-font-global);
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: var (--profify-color-gray);
+    }
+}
