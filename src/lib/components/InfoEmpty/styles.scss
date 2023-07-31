@@ -1,0 +1,30 @@
+.InfoEmpty {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    width: min(100%, 27.6rem);
+    gap: 2rem;
+    margin: auto;
+    text-align: center;
+
+    svg {
+        width: min(100%, 13.75rem);
+    }
+
+    .fenext-text {
+        font-family: var(--fenext-font-global);
+        font-size: 1.3rem;
+        font-weight: 400;
+
+        color: var(--profify-color-gray);
+    }
+
+    .fenext-btn {
+        font-family: var(--fenext-font-global);
+        font-size: 1.3rem;
+        font-weight: 400;
+
+        color: var(--profify-color-white);
+        border-radius: 1.2rem;
+    }
+}
