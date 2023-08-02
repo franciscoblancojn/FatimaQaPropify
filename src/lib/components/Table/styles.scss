@@ -1,0 +1,54 @@
+.fenext-table {
+    background: var(--profify-color-white);
+    cursor: pointer;
+
+    .fenext-table-content-table-thead {
+        background: var(--profify-color-white);
+
+        &:hover {
+            background: var(--profify-color-white);
+        }
+        .fenext-collapse-header {
+            background: var(--profify-color-white);
+        }
+    }
+
+    .fenext-table-content-table {
+        background: var(--profify-color-white);
+        color: var(--profify-color-gray-extra-dark);
+    }
+
+    .fenext-table-content-table-tr {
+        background: var(--profify-color-white);
+
+        &:hover {
+            background: var(--profify-color-white);
+        }
+    }
+
+    .fenext-table-content-table-th {
+        font-family: var(--fenext-font-global);
+        font-size: 1.4rem;
+        font-weight: 700;
+
+        .fenext-collapse-header {
+            color: var(--profify-color-raven-black);
+        }
+    }
+
+    .fenext-table-content-table-t {
+        font-family: var(--fenext-font-global);
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .fenext-table-content-table-tr:nth-child(2n) {
+        background: var(--profify-color-jupiter);
+        color: var(--profify-color-gray-extra-dark);
+    }
+    .fenext-table-content-table-td:nth-child(2n) {
+        @media (max-width: 991px) {
+            background: var(--profify-color-jupiter);
+        }
+    }
+}
