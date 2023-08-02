@@ -10,10 +10,5 @@ export default {
 const Modal_: Story<ModalProps> = (args) => <Modal {...args} />;
 export const Primary = Modal_.bind({});
 Primary.args = {
-    active: true,
-    children: <>
-        If you cancel, you will lose the details you entered for data creation entries 
-    </>,
-    
 
 } as ModalProps;
