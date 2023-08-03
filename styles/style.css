@@ -415,4 +415,22 @@ html {
     }
 }
 
+.fenext-pagination .fenext-pagination-item-page-current-item {
+    width: 4.7rem;
+    height: 4.5rem;
+    background: var(--profify-color-white);
+    border-radius: 0;
+    font-family: var(--fenext-font-global);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--profify-color-gray-extra-dark);
+}
+.fenext-pagination .fenext-pagination-item-page-current-item:hover {
+    background: var(--profify-color-jupiter);
+}
+.fenext-pagination .fenext-pagination-item-page-current-item svg {
+    width: 1.5rem;
+    height: 1.25rem;
+}
+
 /*# sourceMappingURL=style.css.map */
