@@ -433,4 +433,39 @@ html {
     height: 1.25rem;
 }
 
+.BoxCreate1 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+.BoxCreate1 svg {
+    width: 2.5rem;
+    height: 3rem;
+    color: var(--profify-color-pink);
+}
+.BoxCreate1 .fenext-text {
+    color: var(--profify-color-blue-dark);
+}
+
+.fenext-box {
+    display: inline-flex;
+}
+
+.fenext-box {
+    background: var(--profify-color-white);
+}
+
+.fenext-box {
+    background: var(--profify-color-white);
+}
+
+.fenext-link {
+    color: var(--profify-color-blue-dark);
+    text-decoration: underline;
+}
+.fenext-link:hover {
+    color: var(--profify-color-blue-dark);
+}
+
 /*# sourceMappingURL=style.css.map */

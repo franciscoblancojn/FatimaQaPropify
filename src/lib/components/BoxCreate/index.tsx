@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 import { Box } from '../Box';
 import { Text } from '../Text';
+import { Link } from '../Link';
 
 export interface BoxCreateProps {
     styleTemplate?: 'BoxCreate1';
@@ -20,9 +21,10 @@ export const BoxCreate = ({
                 <div className={`BoxCreate1 ${styleTemplate}`}>
                     {icon}
 
-                    <Text>{text}</Text>
-
-                    <Text>{title}</Text>
+                    <Text styleTemplate="Text1">{text}</Text>
+                    <Link href={'/Create'}>
+                        <Text styleTemplate="Title5">{title}</Text>
+                    </Link>
                 </div>
             </Box>
         </>
