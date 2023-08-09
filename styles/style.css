@@ -496,4 +496,19 @@ html {
     color: var(--profify-color-gray);
 }
 
+.CreateTenants {
+    display: grid;
+    gap: 1rem;
+    background: var(--profify-color-white);
+}
+.CreateTenants .Title2 {
+    color: var(--profify-color-blue-dark);
+}
+.CreateTenants .Text3 {
+    color: var(--profify-color-gray);
+}
+.CreateTenants .fenext-text {
+    line-height: 2;
+}
+
 /*# sourceMappingURL=style.css.map */
