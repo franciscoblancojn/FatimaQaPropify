@@ -468,11 +468,16 @@ html {
     color: var(--profify-color-blue-dark);
 }
 
+.fenext-input-upload {
+    background: var(--profify-color-white);
+}
 .fenext-input-upload .fenext-input-upload-up {
     font-family: var(--fenext-font-global);
+    display: grid;
+    gap: 1.5rem;
 }
 .fenext-input-upload .fenext-input-upload-up .fenext-title-h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 700;
     color: var(--profify-color-gray);
 }
@@ -480,9 +485,10 @@ html {
     color: var(--profify-color-gray);
 }
 .fenext-input-upload .fenext-input-upload-up .fenext-btn {
-    color: var(--profify-color-blue-dark);
+    background: var(--profify-color-blue-dark);
     font-size: 1.3rem;
     font-weight: 400;
+    color: var(--profify-color-white);
 }
 .fenext-input-upload .fenext-input-upload-up .fenext-text {
     font-size: 1.3rem;
