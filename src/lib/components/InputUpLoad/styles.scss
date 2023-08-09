@@ -1,0 +1,27 @@
+.fenext-input-upload {
+    .fenext-input-upload-up {
+        font-family: var(--fenext-font-global);
+
+        .fenext-title-h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--profify-color-gray);
+        }
+
+        .fenext-input-upload-content-icon {
+            color: var(--profify-color-gray);
+        }
+
+        .fenext-btn {
+            color: var(--profify-color-blue-dark);
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+
+        .fenext-text {
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: var(--profify-color-gray);
+        }
+    }
+}
