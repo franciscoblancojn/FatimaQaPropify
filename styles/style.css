@@ -528,4 +528,21 @@ html {
     border-color: var(--profify-color-blue-dark);
 }
 
+.CreateScreeningChecks {
+    display: grid;
+    gap: 1rem;
+}
+.CreateScreeningChecks .Title5 {
+    color: var(--profify-color-blue-dark);
+}
+.CreateScreeningChecks .fenext-input-checkbox {
+    gap: 1.5rem;
+}
+.CreateScreeningChecks .fenext-input-checkbox .fenext-input-checkbox-text {
+    color: var(--profify-color-gray-extra-dark);
+}
+.CreateScreeningChecks .fenext-input-checkbox .fenext-input-checkbox-box {
+    border-color: var(--profify-color-blue-dark);
+}
+
 /*# sourceMappingURL=style.css.map */

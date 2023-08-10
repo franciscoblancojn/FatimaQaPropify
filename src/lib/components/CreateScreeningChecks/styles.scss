@@ -1,0 +1,20 @@
+.CreateScreeningChecks {
+    display: grid;
+    gap: 1rem;
+
+    .Title5 {
+        color: var(--profify-color-blue-dark);
+    }
+
+    .fenext-input-checkbox {
+        gap: 1.5rem;
+
+        .fenext-input-checkbox-text {
+            color: var(--profify-color-gray-extra-dark);
+        }
+
+        .fenext-input-checkbox-box {
+            border-color: var(--profify-color-blue-dark);
+        }
+    }
+}
