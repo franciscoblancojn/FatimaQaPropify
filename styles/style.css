@@ -511,4 +511,21 @@ html {
     line-height: 2;
 }
 
+.CreatePersonalDetails {
+    display: grid;
+    gap: 1rem;
+}
+.CreatePersonalDetails .Title5 {
+    color: var(--profify-color-blue-dark);
+}
+.CreatePersonalDetails .fenext-input-checkbox {
+    gap: 1.5rem;
+}
+.CreatePersonalDetails .fenext-input-checkbox .fenext-input-checkbox-text {
+    color: var(--profify-color-gray-extra-dark);
+}
+.CreatePersonalDetails .fenext-input-checkbox .fenext-input-checkbox-box {
+    border-color: var(--profify-color-blue-dark);
+}
+
 /*# sourceMappingURL=style.css.map */
