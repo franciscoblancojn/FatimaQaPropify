@@ -545,4 +545,19 @@ html {
     border-color: var(--profify-color-blue-dark);
 }
 
+.MessageDetails {
+    display: grid;
+    gap: 1.5rem;
+}
+.MessageDetails .fenext-text-p {
+    color: var(--profify-color-blue-dark);
+}
+.MessageDetails .fenext-input-content-input {
+    font-family: var(--fenext-font-global);
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: var(--profify-color-gray-extra-dark);
+    background: var(--profify-color-pixel-white);
+}
+
 /*# sourceMappingURL=style.css.map */
