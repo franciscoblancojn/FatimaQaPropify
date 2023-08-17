@@ -574,4 +574,18 @@ html {
     gap: 1rem;
 }
 
+.SendVia {
+    display: grid;
+    gap: 1rem;
+}
+.SendVia .fenext-text.Title5 {
+    color: var(--profify-color-blue-dark);
+}
+.SendVia .inputCheckbox {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
