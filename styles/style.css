@@ -560,4 +560,18 @@ html {
     background: var(--profify-color-pixel-white);
 }
 
+.ApplicationFee {
+    display: grid;
+    gap: 1rem;
+}
+.ApplicationFee .fenext-text.Title5 {
+    color: var(--profify-color-blue-dark);
+}
+.ApplicationFee .inputCheckbox {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
