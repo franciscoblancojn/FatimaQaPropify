@@ -1,591 +1,588 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 :root {
-    --fenext-font-global: 'Inter';
+  --fenext-font-global: "Inter";
 }
 
 ::-webkit-scrollbar {
-    width: 0.5rem;
-    height: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--profify-color-white);
+  background-color: var(--profify-color-white);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--profify-color-blue-dark);
+  background-color: var(--profify-color-blue-dark);
 }
 
 :root {
-    --profify-color-gray-extra-dark: #707070;
-    --profify-color-raven-black: #3d3d3d;
-    --profify-color-gray-dark: #807e7e;
-    --profify-color-gray: #929292;
-    --profify-color-gray-light: #bdbdbd;
-    --profify-color-gray-extra-light: #eaeaea;
-    --profify-color-gray: #808080;
-    --profify-color-smoke-screen: #aeaeae;
-    --profify-color-pixel-white: #dbdbdb;
-    --profify-color-jupiter: #e2e2e2;
-    --profify-color-frosty-fog: #dee1e8;
-    --profify-color-white: #ffffff;
-    --profify-color-white-dark: #fbfbfc;
-    --profify-color-pink: #df6475;
-    --profify-color-yellow: #faff82;
-    --profify-color-orange: #ffbc00;
-    --profify-color-green: #5eff00;
-    --profify-color-black: #000000;
-    --profify-color-black-light: #3d3d3d;
-    --profify-color-blue-dark: #001a4f;
-    --profify-color-blue-light: #adc6fa;
-    --profify-color-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
-    --profify-color-shadow-2: 2px 1.5px 3px 0 rgba(0, 0, 0, 0.16);
-    /*Fuentes Botones*/
-    --profify-font-button-1: normal 900 1rem/1.2rem 'Manrope';
-    --profify-font-button-2: normal 700 0.9rem/1.5rem 'Manrope';
-    --profify-font-button-3: normal 700 0.8rem/1.5rem 'Manrope';
-    /*Fuentes Textos*/
-    --profify-font-text-1: normal 900 1rem/1.8rem 'Manrope';
-    --profify-font-text-2: normal 900 0.938rem/1.8rem 'Manrope';
-    --profify-font-text-3: normal 700 0.75rem/1.8rem 'Manrope';
-    --profify-font-text-4: normal 700 0.625rem/1.8rem 'Manrope';
-    /*Fuentes Titulos*/
-    --profify-font-title-1: normal 900 2.5rem/2.75rem 'Manrope';
-    --profify-font-title-2: normal 900 1.875rem/1.95rem 'Manrope';
-    --profify-font-title-3: normal 700 0.938rem/1rem 'Manrope';
-    --profify-font-title-4: normal 700 0.72rem/1rem 'Manrope';
-    --profify-font-title-5: normal 700 0.625rem/1rem 'Manrope';
-    --fenext-size-menu-top: 3.5rem;
-    --fenext-size-menu-left-max: max(15rem, 15vw);
-    --fenext-size-container-custom: 70rem;
+  --profify-color-gray-extra-dark: #707070;
+  --profify-color-raven-black: #3d3d3d;
+  --profify-color-gray-dark: #807e7e;
+  --profify-color-gray: #929292;
+  --profify-color-gray-light: #bdbdbd;
+  --profify-color-gray-extra-light: #eaeaea;
+  --profify-color-gray: #808080;
+  --profify-color-smoke-screen: #aeaeae;
+  --profify-color-pixel-white: #dbdbdb;
+  --profify-color-jupiter: #e2e2e2;
+  --profify-color-frosty-fog: #dee1e8;
+  --profify-color-white: #ffffff;
+  --profify-color-white-dark: #fbfbfc;
+  --profify-color-pink: #df6475;
+  --profify-color-yellow: #faff82;
+  --profify-color-orange: #ffbc00;
+  --profify-color-green: #5eff00;
+  --profify-color-black: #000000;
+  --profify-color-black-light: #3d3d3d;
+  --profify-color-blue-dark: #001a4f;
+  --profify-color-blue-light: #adc6fa;
+  --profify-color-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+  --profify-color-shadow-2: 2px 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+  /*Fuentes Botones*/
+  --profify-font-button-1: normal 900 1rem/1.2rem "Manrope";
+  --profify-font-button-2: normal 700 0.9rem/1.5rem "Manrope";
+  --profify-font-button-3: normal 700 0.8rem/1.5rem "Manrope";
+  /*Fuentes Textos*/
+  --profify-font-text-1: normal 900 1rem/1.8rem "Manrope";
+  --profify-font-text-2: normal 900 0.938rem/1.8rem "Manrope";
+  --profify-font-text-3: normal 700 0.75rem/1.8rem "Manrope";
+  --profify-font-text-4: normal 700 0.625rem/1.8rem "Manrope";
+  /*Fuentes Titulos*/
+  --profify-font-title-1: normal 900 2.5rem/2.75rem "Manrope";
+  --profify-font-title-2: normal 900 1.875rem/1.95rem "Manrope";
+  --profify-font-title-3: normal 700 0.938rem/1rem "Manrope";
+  --profify-font-title-4: normal 700 0.72rem/1rem "Manrope";
+  --profify-font-title-5: normal 700 0.625rem/1rem "Manrope";
+  --fenext-size-menu-top: 3.5rem;
+  --fenext-size-menu-left-max: max(15rem, 15vw);
+  --fenext-size-container-custom: 70rem;
 }
 
 html {
-    font-family: 'Manrope';
+  font-family: "Manrope";
 }
 
 .fenext-btn {
-    border-radius: 0.75rem;
-    font: var(--profify-font-button-1);
+  border-radius: 0.75rem;
+  font: var(--profify-font-button-1);
 }
 .fenext-btn-size-extra-small {
-    padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
 .fenext-btn-size-small {
-    padding: 0.7rem 2rem;
+  padding: 0.7rem 2rem;
 }
 .fenext-btn-size-normal {
-    padding: 0.938rem 2.5rem;
+  padding: 0.938rem 2.5rem;
 }
 .fenext-btn-size-strong {
-    padding: 1rem 3rem;
+  padding: 1rem 3rem;
 }
 .fenext-btn-size-extra-strong {
-    padding: 1.1rem 3.5rem;
+  padding: 1.1rem 3.5rem;
 }
 .fenext-btn[disabled][disabled] {
-    background-color: var(--profify-color-gray-extra-light);
-    border-color: var(--profify-color-gray-extra-light);
-    color: var(--profify-color-gray-extra-dark);
+  background-color: var(--profify-color-gray-extra-light);
+  border-color: var(--profify-color-gray-extra-light);
+  color: var(--profify-color-gray-extra-dark);
 }
 .fenext-btn.btn1 {
-    background-color: var(--profify-color-pink);
-    border: 4px solid var(--profify-color-pink);
+  background-color: var(--profify-color-pink);
+  border: 4px solid var(--profify-color-pink);
 }
 .fenext-btn.btn1:hover {
-    background-color: transparent;
-    color: var(--profify-color-pink);
+  background-color: transparent;
+  color: var(--profify-color-pink);
 }
 .fenext-btn.btn2 {
-    background-color: var(--profify-color-blue-dark);
-    border: 4px solid var(--profify-color-blue-dark);
-    color: var(--profify-color-white);
+  background-color: var(--profify-color-blue-dark);
+  border: 4px solid var(--profify-color-blue-dark);
+  color: var(--profify-color-white);
 }
 .fenext-btn.btn2:hover {
-    background-color: transparent;
-    color: var(--profify-color-blue-dark);
+  background-color: transparent;
+  color: var(--profify-color-blue-dark);
 }
 .fenext-btn.btn3 {
-    background-color: transparent;
-    border: 4px solid var(--profify-color-blue-dark);
-    color: var(--profify-color-blue-dark);
+  background-color: transparent;
+  border: 4px solid var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .fenext-btn.btn3:hover {
-    background-color: var(--profify-color-blue-dark);
-    color: var(--profify-color-white);
+  background-color: var(--profify-color-blue-dark);
+  color: var(--profify-color-white);
 }
 .fenext-btn.btn4 {
-    background-color: transparent;
-    border: 4px solid var(--profify-color-pink);
-    color: var(--profify-color-pink);
+  background-color: transparent;
+  border: 4px solid var(--profify-color-pink);
+  color: var(--profify-color-pink);
 }
 .fenext-btn.btn4:hover {
-    background-color: var(--profify-color-pink);
-    color: var(--profify-color-white);
+  background-color: var(--profify-color-pink);
+  color: var(--profify-color-white);
 }
 .fenext-btn.btn5 {
-    font: var(--profify-font-button-3);
-    text-decoration: underline;
-    background-color: transparent;
-    color: var(--profify-color-blue-dark);
+  font: var(--profify-font-button-3);
+  text-decoration: underline;
+  background-color: transparent;
+  color: var(--profify-color-blue-dark);
 }
 .fenext-btn.btn5:hover {
-    background-color: var(--profify-color-blue-dark);
-    color: var(--profify-color-white);
+  background-color: var(--profify-color-blue-dark);
+  color: var(--profify-color-white);
 }
 .fenext-btn.btn6 {
-    font: var(--profify-font-button-3);
-    text-decoration: underline;
-    background-color: transparent;
-    color: var(--profify-color-pink);
+  font: var(--profify-font-button-3);
+  text-decoration: underline;
+  background-color: transparent;
+  color: var(--profify-color-pink);
 }
 .fenext-btn.btn6:hover {
-    background-color: var(--profify-color-pink);
-    color: var(--profify-color-white);
+  background-color: var(--profify-color-pink);
+  color: var(--profify-color-white);
 }
 
 .fenext-text {
-    font-family: var(--fenext-font-global);
+  font-family: var(--fenext-font-global);
 }
 .fenext-text.Title1 {
-    font-weight: 700;
-    font-size: 4.6rem;
+  font-weight: 700;
+  font-size: 4.6rem;
 }
 .fenext-text.Title2 {
-    font-weight: 700;
-    font-size: 3.7rem;
+  font-weight: 700;
+  font-size: 3.7rem;
 }
 .fenext-text.Title3 {
-    font-weight: 700;
-    font-size: 2.5rem;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 .fenext-text.Title4 {
-    font-weight: 400;
-    font-size: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
 }
 .fenext-text.Title5 {
-    font-weight: 700;
-    font-size: 1.8rem;
+  font-weight: 700;
+  font-size: 1.8rem;
 }
 .fenext-text.Text1 {
-    font-weight: 400;
-    font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 .fenext-text.Text2 {
-    font-weight: 700;
-    font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 .fenext-text.Text3 {
-    font-weight: 400;
-    font-size: 1.3rem;
+  font-weight: 400;
+  font-size: 1.3rem;
 }
 .fenext-text.Text4 {
-    font-weight: 700;
-    font-size: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
 }
 .fenext-text.Text5 {
-    font-weight: 400;
-    font-size: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .fenext-input-content-input {
-    background: var(--profify-color-pixel-white);
-    border-radius: 0.7rem;
-    font-family: var(--fenext-font-global);
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--profify-color-gray-extra-dark);
+  background: var(--profify-color-pixel-white);
+  border-radius: 0.7rem;
+  font-family: var(--fenext-font-global);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--profify-color-gray-extra-dark);
 }
 
 .fenext-select .fenext-input-content-icon svg {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .fenext-select .fenext-select-option {
-    font-family: var(--fenext-font-global);
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--profify-color-gray-extra-dark);
-    padding: 0.8rem 1.2rem;
-    cursor: pointer;
-    position: relative;
-    background: var(--profify-color-white);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    border-radius: 0.1rem;
+  font-family: var(--fenext-font-global);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--profify-color-gray-extra-dark);
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  position: relative;
+  background: var(--profify-color-white);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 0.1rem;
 }
 .fenext-select .fenext-select-option:hover {
-    background: var(--profify-color-gray-extra-light);
+  background: var(--profify-color-gray-extra-light);
 }
 .fenext-select .fenext-select-list-options {
-    background: var(--profify-color-white);
-    position: absolute;
-    width: 100%;
-    border-radius: 0.2rem;
-    padding: 1rem 0;
-    z-index: 1;
-    color: var(--profify-color-gray-extra-dark);
-    overflow: auto;
+  background: var(--profify-color-white);
+  position: absolute;
+  width: 100%;
+  border-radius: 0.2rem;
+  padding: 1rem 0;
+  z-index: 1;
+  color: var(--profify-color-gray-extra-dark);
+  overflow: auto;
 }
 
 .fenext-input-checkbox .fenext-input-checkbox-text {
-    font-family: var(--fenext-font-global);
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--profify-color-gray-extra-light);
+  font-family: var(--fenext-font-global);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--profify-color-gray-extra-light);
 }
 .fenext-input-checkbox .fenext-input-checkbox-box {
-    color: var(--profify-color-white);
-    border-radius: 0.3rem;
-    border-color: var(--profify-color-gray-extra-dark);
+  color: var(--profify-color-white);
+  border-radius: 0.3rem;
+  border-color: var(--profify-color-gray-extra-dark);
 }
-.fenext-input-checkbox:has(.fenext-input-checkbox-input:checked)
-    .fenext-input-checkbox-box {
-    background: var(--profify-color-pink);
-    border-color: var(--profify-color-pink);
+.fenext-input-checkbox:has(.fenext-input-checkbox-input:checked) .fenext-input-checkbox-box {
+  background: var(--profify-color-pink);
+  border-color: var(--profify-color-pink);
 }
 
 .fenext-input-swich {
-    background-color: var(--profify-color-smoke-screen);
-    --size-cicle: 1.5rem;
+  background-color: var(--profify-color-smoke-screen);
+  --size-cicle: 1.5rem;
 }
 .fenext-input-swich .fenext-input-swich-circle {
-    background-color: var(--profify-color-white);
-    box-shadow: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
-    transform: scale(1.5);
+  background-color: var(--profify-color-white);
+  box-shadow: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  transform: scale(1.5);
 }
 .fenext-input-swich:has(.fenext-input-swich-input:checked) {
-    background-color: var(--profify-color-blue-dark);
+  background-color: var(--profify-color-blue-dark);
 }
-.fenext-input-swich:has(.fenext-input-swich-input:checked)
-    .fenext-input-swich-circle {
-    transform: translateX(175%) scale(1.5);
+.fenext-input-swich:has(.fenext-input-swich-input:checked) .fenext-input-swich-circle {
+  transform: translateX(175%) scale(1.5);
 }
 
 .fenext-menu .fenext-menu-item-a {
-    font-family: var(--fenext-font-global);
-    font-size: 1.3rem;
-    font-weight: 700;
-    gap: 1.3rem;
-    cursor: pointer;
-    color: var(--profify-color-blue-dark);
+  font-family: var(--fenext-font-global);
+  font-size: 1.3rem;
+  font-weight: 700;
+  gap: 1.3rem;
+  cursor: pointer;
+  color: var(--profify-color-blue-dark);
 }
 .fenext-menu .fenext-menu-item-a .fenext-menu-item-a-icon svg {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .fenext-menu .fenext-menu-item-a:hover {
-    color: var(--profify-color-pink);
+  color: var(--profify-color-pink);
 }
 .fenext-menu .fenext-menu-item-a:hover .fenext-menu-item-a-icon {
-    color: var(--profify-color-pink);
+  color: var(--profify-color-pink);
 }
 .fenext-menu .fenext-menu-item-a:hover .fenext-menu-item-a-icon svg {
-    color: var(--profify-color-pink);
+  color: var(--profify-color-pink);
 }
 .fenext-menu .fenext-collapse-body .fenext-menu-item,
 .fenext-menu .fenext-collapse-body .fenext-collapse-header {
-    background: var(--profify-color-jupiter);
+  background: var(--profify-color-jupiter);
 }
 
 .fenext-modal-base-bg {
-    opacity: 0.42;
-    background: var(--profify-color-black);
+  opacity: 0.42;
+  background: var(--profify-color-black);
 }
 
 .fenext-modal-base-close-center {
-    color: var(--profify-color-jupiter);
+  color: var(--profify-color-jupiter);
 }
 .fenext-modal-base-close-center:hover {
-    color: var(--profify-color-black);
+  color: var(--profify-color-black);
 }
 
 .fenext-modal-base .fenext-modal-base-content {
-    background: var(--profify-color-white);
-    font-family: var(--fenext-font-global);
-    color: var(--profify-color-gray);
+  background: var(--profify-color-white);
+  font-family: var(--fenext-font-global);
+  color: var(--profify-color-gray);
 }
 
 .fenext-back {
-    border-radius: 1rem;
-    background: var(--profify-color-frosty-fog);
-    width: auto;
-    display: inline-flex;
-    padding: 0.7rem 1.1rem;
+  border-radius: 1rem;
+  background: var(--profify-color-frosty-fog);
+  width: auto;
+  display: inline-flex;
+  padding: 0.7rem 1.1rem;
 }
 .fenext-back svg {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .fenext-back .fenext-back-content {
-    font-family: var(--fenext-font-global);
-    font-weight: 400;
-    font-size: 1.3rem;
-    color: var(--profify-color-blue-dark);
+  font-family: var(--fenext-font-global);
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: var(--profify-color-blue-dark);
 }
 
 .fenext-btn-menu svg {
-    height: 3rem;
-    color: var(--profify-color-pink);
+  height: 3rem;
+  color: var(--profify-color-pink);
 }
 .fenext-btn-menu .fenext-btn-menu-icon {
-    color: var(--profify-color-pink);
+  color: var(--profify-color-pink);
 }
 
 .InfoEmpty {
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    width: min(100%, 27.6rem);
-    gap: 2rem;
-    margin: auto;
-    text-align: center;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  width: min(100%, 27.6rem);
+  gap: 2rem;
+  margin: auto;
+  text-align: center;
 }
 .InfoEmpty svg {
-    width: min(100%, 13.75rem);
+  width: min(100%, 13.75rem);
 }
 .InfoEmpty .fenext-text {
-    font-family: var(--fenext-font-global);
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: var(--profify-color-gray);
+  font-family: var(--fenext-font-global);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--profify-color-gray);
 }
 .InfoEmpty .fenext-btn {
-    font-family: var(--fenext-font-global);
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: var(--profify-color-white);
-    border-radius: 1.2rem;
+  font-family: var(--fenext-font-global);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--profify-color-white);
+  border-radius: 1.2rem;
 }
 
 .fenext-user .fenext-user-name {
-    font-family: var(--fenext-font-global);
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var --profify-color-black;
+  font-family: var(--fenext-font-global);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var --profify-color-black;
 }
 .fenext-user .fenext-user-email {
-    font-family: var(--fenext-font-global);
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: var --profify-color-gray;
+  font-family: var(--fenext-font-global);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var --profify-color-gray;
 }
 
 .fenext-table {
-    background: var(--profify-color-white);
-    cursor: pointer;
+  background: var(--profify-color-white);
+  cursor: pointer;
 }
 .fenext-table .fenext-table-content-table-thead {
-    background: var(--profify-color-white);
+  background: var(--profify-color-white);
 }
 .fenext-table .fenext-table-content-table-thead:hover {
-    background: var(--profify-color-white);
+  background: var(--profify-color-white);
 }
 .fenext-table .fenext-table-content-table-thead .fenext-collapse-header {
-    background: var(--profify-color-white);
+  background: var(--profify-color-white);
 }
 .fenext-table .fenext-table-content-table {
-    background: var(--profify-color-white);
-    color: var(--profify-color-gray-extra-dark);
+  background: var(--profify-color-white);
+  color: var(--profify-color-gray-extra-dark);
 }
 .fenext-table .fenext-table-content-table-tr {
-    background: var(--profify-color-white);
+  background: var(--profify-color-white);
 }
 .fenext-table .fenext-table-content-table-tr:hover {
-    background: var(--profify-color-white);
+  background: var(--profify-color-white);
 }
 .fenext-table .fenext-table-content-table-th {
-    font-family: var(--fenext-font-global);
-    font-size: 1.4rem;
-    font-weight: 700;
+  font-family: var(--fenext-font-global);
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 .fenext-table .fenext-table-content-table-th .fenext-collapse-header {
-    color: var(--profify-color-raven-black);
+  color: var(--profify-color-raven-black);
 }
 .fenext-table .fenext-table-content-table-t {
-    font-family: var(--fenext-font-global);
-    font-size: 1.3rem;
-    font-weight: 400;
+  font-family: var(--fenext-font-global);
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 .fenext-table .fenext-table-content-table-tr:nth-child(2n) {
-    background: var(--profify-color-jupiter);
-    color: var(--profify-color-gray-extra-dark);
+  background: var(--profify-color-jupiter);
+  color: var(--profify-color-gray-extra-dark);
 }
 @media (max-width: 991px) {
-    .fenext-table .fenext-table-content-table-td:nth-child(2n) {
-        background: var(--profify-color-jupiter);
-    }
+  .fenext-table .fenext-table-content-table-td:nth-child(2n) {
+    background: var(--profify-color-jupiter);
+  }
 }
 
 .fenext-pagination .fenext-pagination-item-page-current-item {
-    width: 4.7rem;
-    height: 4.5rem;
-    background: var(--profify-color-white);
-    border-radius: 0;
-    font-family: var(--fenext-font-global);
-    font-size: 2rem;
-    font-weight: 400;
-    color: var(--profify-color-gray-extra-dark);
+  width: 4.7rem;
+  height: 4.5rem;
+  background: var(--profify-color-white);
+  border-radius: 0;
+  font-family: var(--fenext-font-global);
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--profify-color-gray-extra-dark);
 }
 .fenext-pagination .fenext-pagination-item-page-current-item:hover {
-    background: var(--profify-color-jupiter);
+  background: var(--profify-color-jupiter);
 }
 .fenext-pagination .fenext-pagination-item-page-current-item svg {
-    width: 1.5rem;
-    height: 1.25rem;
+  width: 1.5rem;
+  height: 1.25rem;
 }
 
 .BoxCreate1 {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    gap: 1rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
 }
 .BoxCreate1 svg {
-    width: 2.5rem;
-    height: 3rem;
-    color: var(--profify-color-pink);
+  width: 2.5rem;
+  height: 3rem;
+  color: var(--profify-color-pink);
 }
 .BoxCreate1 .fenext-text {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 
 .fenext-box {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .fenext-box {
-    background: var(--profify-color-white);
+  background: var(--profify-color-white);
 }
 
 .fenext-box {
-    background: var(--profify-color-white);
+  background: var(--profify-color-white);
 }
 
 .fenext-link {
-    color: var(--profify-color-blue-dark);
-    text-decoration: underline;
+  color: var(--profify-color-blue-dark);
+  text-decoration: underline;
 }
 .fenext-link:hover {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 
 .fenext-input-upload {
-    background: var(--profify-color-white);
+  background: var(--profify-color-white);
 }
 .fenext-input-upload .fenext-input-upload-up {
-    font-family: var(--fenext-font-global);
-    display: grid;
-    gap: 1.5rem;
+  font-family: var(--fenext-font-global);
+  display: grid;
+  gap: 1.5rem;
 }
 .fenext-input-upload .fenext-input-upload-up .fenext-title-h2 {
-    font-size: 2.3rem;
-    font-weight: 700;
-    color: var(--profify-color-gray);
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--profify-color-gray);
 }
 .fenext-input-upload .fenext-input-upload-up .fenext-input-upload-content-icon {
-    color: var(--profify-color-gray);
+  color: var(--profify-color-gray);
 }
 .fenext-input-upload .fenext-input-upload-up .fenext-btn {
-    background: var(--profify-color-blue-dark);
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: var(--profify-color-white);
+  background: var(--profify-color-blue-dark);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--profify-color-white);
 }
 .fenext-input-upload .fenext-input-upload-up .fenext-text {
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: var(--profify-color-gray);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--profify-color-gray);
 }
 
 .CreateTenants {
-    display: grid;
-    gap: 1rem;
-    background: var(--profify-color-white);
+  display: grid;
+  gap: 1rem;
 }
 .CreateTenants .Title2 {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .CreateTenants .Text3 {
-    color: var(--profify-color-gray);
+  color: var(--profify-color-gray);
 }
 .CreateTenants .fenext-text {
-    line-height: 2;
+  line-height: 2;
 }
 
 .CreatePersonalDetails {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
 }
 .CreatePersonalDetails .Title5 {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .CreatePersonalDetails .fenext-input-checkbox {
-    gap: 1.5rem;
+  gap: 1.5rem;
 }
 .CreatePersonalDetails .fenext-input-checkbox .fenext-input-checkbox-text {
-    color: var(--profify-color-gray-extra-dark);
+  color: var(--profify-color-gray-extra-dark);
 }
 .CreatePersonalDetails .fenext-input-checkbox .fenext-input-checkbox-box {
-    border-color: var(--profify-color-blue-dark);
+  border-color: var(--profify-color-blue-dark);
 }
 
 .CreateScreeningChecks {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
 }
 .CreateScreeningChecks .Title5 {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .CreateScreeningChecks .fenext-input-checkbox {
-    gap: 1.5rem;
+  gap: 1.5rem;
 }
 .CreateScreeningChecks .fenext-input-checkbox .fenext-input-checkbox-text {
-    color: var(--profify-color-gray-extra-dark);
+  color: var(--profify-color-gray-extra-dark);
 }
 .CreateScreeningChecks .fenext-input-checkbox .fenext-input-checkbox-box {
-    border-color: var(--profify-color-blue-dark);
+  border-color: var(--profify-color-blue-dark);
 }
 
 .MessageDetails {
-    display: grid;
-    gap: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
 }
 .MessageDetails .fenext-text-p {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .MessageDetails .fenext-input-content-input {
-    font-family: var(--fenext-font-global);
-    font-weight: 400;
-    font-size: 1.3rem;
-    color: var(--profify-color-gray-extra-dark);
-    background: var(--profify-color-pixel-white);
+  font-family: var(--fenext-font-global);
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: var(--profify-color-gray-extra-dark);
+  background: var(--profify-color-pixel-white);
 }
 
 .ApplicationFee {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
 }
 .ApplicationFee .fenext-text.Title5 {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .ApplicationFee .inputCheckbox {
-    display: inline-flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .SendVia {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
 }
 .SendVia .fenext-text.Title5 {
-    color: var(--profify-color-blue-dark);
+  color: var(--profify-color-blue-dark);
 }
 .SendVia .inputCheckbox {
-    display: inline-flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
