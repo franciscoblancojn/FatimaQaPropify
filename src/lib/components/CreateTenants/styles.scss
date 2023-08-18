@@ -1,15 +1,38 @@
 .CreateTenants {
     display: grid;
-    gap: 1rem;
- 
+    gap: 2rem;
+
 
     .Title2 {
         color: var(--profify-color-blue-dark);
     }
+
     .Text3 {
         color: var(--profify-color-gray);
     }
+
     .fenext-text {
         line-height: 2;
     }
+
+
+    .ContentColumnas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
+    }
+    .col1{
+
+    }
+    .col2{
+
+    }
+    .col3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 }

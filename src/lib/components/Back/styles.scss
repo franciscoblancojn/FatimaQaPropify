@@ -1,9 +1,10 @@
 .fenext-back {
     border-radius: 1rem;
-    background: var(--profify-color-frosty-fog);
-    width: auto;
+    background: var(--profify-color-blue-dark-13);
     display: inline-flex;
     padding: 0.7rem 1.1rem;
+    width: fit-content;
+
     svg {
         color: var(--profify-color-blue-dark);
     }

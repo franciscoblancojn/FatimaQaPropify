@@ -1,3 +1,4 @@
+import { Input } from '../Input';
 import { InputSelect } from '../InputSelect';
 import { Text } from '../Text';
 
@@ -31,6 +32,24 @@ export const MessageDetails = ({
                     },
                 ]}
             />
+            <Input
+            placeholder='Name'
+            
+            
+            />
+             <Input
+            placeholder='Email'
+            
+            
+            />
+             <Input
+            placeholder='Phone Number'
+            
+            
+            />
+
+
+
         </div>
     );
 };
