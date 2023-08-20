@@ -32,24 +32,9 @@ export const MessageDetails = ({
                     },
                 ]}
             />
-            <Input
-            placeholder='Name'
-            
-            
-            />
-             <Input
-            placeholder='Email'
-            
-            
-            />
-             <Input
-            placeholder='Phone Number'
-            
-            
-            />
-
-
-
+            <Input placeholder="Name" />
+            <Input placeholder="Email" />
+            <Input placeholder="Phone Number" />
         </div>
     );
 };

@@ -23,29 +23,22 @@ export const CreateTenants = ({
                 can organize your resources, and manage them efficiently.
             </Text>
 
-            <div className='ContentColumnas'>
-                <div className='col1'>
+            <div className="ContentColumnas">
+                <div className="col1">
                     <CreatePersonalDetails />
 
-                    <CreateScreeningChecks
-                    />
+                    <CreateScreeningChecks />
                 </div>
-                <div className='col2'>
+                <div className="col2">
                     <MessageDetails />
                     <ApplicationFee />
 
                     <SendVia />
                 </div>
-                <div className='col3'>
-
-                    <Button styleTemplate='btn2'>
-                        Send
-                    </Button>
+                <div className="col3">
+                    <Button styleTemplate="btn2">Send</Button>
                 </div>
             </div>
-
-
-
         </div>
     );
 };
