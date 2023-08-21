@@ -1,0 +1,31 @@
+.fenext-media {
+    .fenext-input-upload {
+        border-radius: 6rem;
+        width: 10rem;
+        height: 10rem;
+        border-color: var(--profify-color-pink);
+        border-style: solid;
+        display: grid;
+        gap: 1rem;
+        align-items: flex-end;
+        justify-items: center;
+
+        .fenext-input-upload-up {
+            .fenext-title-h2 {
+                font-family: var(--fenext-font-global);
+                font-size: 0.8rem;
+                font-weight: 400;
+                text-decoration: underline;
+                color: var(--profify-color-pink);
+                order: 2;
+            }
+
+            .fenext-text {
+                font-family: var(--fenext-font-global);
+                font-size: 0.7rem;
+                font-weight: 400;
+                order: 3;
+            }
+        }
+    }
+}
