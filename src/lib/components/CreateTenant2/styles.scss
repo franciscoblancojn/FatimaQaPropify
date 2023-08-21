@@ -1,0 +1,39 @@
+.CreateTenant2 {
+    display: grid;
+    gap: 2rem;
+
+    .Title2 {
+        color: var(--profify-color-blue-dark);
+    }
+
+    .Text3 {
+        color: var(--profify-color-gray);
+    }
+
+    .fenext-text {
+        line-height: 2;
+    }
+
+    .ContentColumnas {
+        display: grid;
+        grid-template-columns: 10rem 22rem 16.4rem 1fr;
+        gap: 2rem;
+    }
+    .col1 {
+    }
+    .col2 {
+    }
+    .col3 {
+    }
+    .col4 {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+
+        .fenext-btn.btn2 {
+            position: sticky;
+            bottom: 1rem;
+            white-space: nowrap;
+        }
+    }
+}
