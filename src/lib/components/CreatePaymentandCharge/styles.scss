@@ -1,0 +1,47 @@
+.CreatePaymentandCharge {
+    display: grid;
+    gap: 2rem;
+    .container {
+        margin: 0;
+    }
+
+    .Title2 {
+        color: var(--profify-color-blue-dark);
+    }
+    .Title5 {
+        color: var(--profify-color-blue-dark);
+    }
+
+    .Text3 {
+        color: var(--profify-color-gray);
+    }
+
+    .fenext-link {
+        color: var(--profify-color-gray);
+        font-size: 1.3rem;
+    }
+
+    .fenext-input-checkbox {
+        .fenext-input-checkbox-text {
+            color: var(--profify-color-gray-extra-dark);
+        }
+    }
+
+    .ContentInformation {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .TextDescripcion {
+        display: grid;
+        gap: 2rem;
+        .textd {
+            color: var(--profify-color-blue-dark);
+        }
+
+        .Adress {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}

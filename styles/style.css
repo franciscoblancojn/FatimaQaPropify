@@ -679,4 +679,43 @@ html {
     white-space: nowrap;
 }
 
+.CreatePaymentandCharge {
+    display: grid;
+    gap: 2rem;
+}
+.CreatePaymentandCharge .container {
+    margin: 0;
+}
+.CreatePaymentandCharge .Title2 {
+    color: var(--profify-color-blue-dark);
+}
+.CreatePaymentandCharge .Title5 {
+    color: var(--profify-color-blue-dark);
+}
+.CreatePaymentandCharge .Text3 {
+    color: var(--profify-color-gray);
+}
+.CreatePaymentandCharge .fenext-link {
+    color: var(--profify-color-gray);
+    font-size: 1.3rem;
+}
+.CreatePaymentandCharge .fenext-input-checkbox .fenext-input-checkbox-text {
+    color: var(--profify-color-gray-extra-dark);
+}
+.CreatePaymentandCharge .ContentInformation {
+    display: grid;
+    gap: 1rem;
+}
+.CreatePaymentandCharge .TextDescripcion {
+    display: grid;
+    gap: 2rem;
+}
+.CreatePaymentandCharge .TextDescripcion .textd {
+    color: var(--profify-color-blue-dark);
+}
+.CreatePaymentandCharge .TextDescripcion .Adress {
+    display: flex;
+    gap: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */

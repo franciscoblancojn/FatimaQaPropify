@@ -1,4 +1,3 @@
-import React from 'react';
 import {
     Back as FenextBack,
     BackProps as FenextBackProps,
