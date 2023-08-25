@@ -1,0 +1,39 @@
+.CreateUnitsinBulk {
+    display: grid;
+    gap: 2rem;
+
+    .Title2 {
+        color: var(--profify-color-blue-dark);
+    }
+
+    .Text3 {
+        color: var(--profify-color-gray);
+    }
+
+    .ContentColumnas {
+        display: flex;
+        grid-template-columns: 1fr auto;
+        justify-content: space-between;
+        gap: 2rem;
+
+        .col1 {
+            display: grid;
+            gap: 1rem;
+            width: min(100%, 45.8rem);
+        }
+
+        .col2 {
+            display: grid;
+            gap: 1rem;
+            text-align: center;
+            justify-items: center;
+            width: min(100%, 23.1rem);
+        }
+        .fenext-btn {
+            font-family: var(--fenext-font-gobal);
+
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+    }
+}
