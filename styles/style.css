@@ -718,4 +718,38 @@ html {
     gap: 1rem;
 }
 
+.CreateUnitsinBulk {
+    display: grid;
+    gap: 2rem;
+}
+.CreateUnitsinBulk .Title2 {
+    color: var(--profify-color-blue-dark);
+}
+.CreateUnitsinBulk .Text3 {
+    color: var(--profify-color-gray);
+}
+.CreateUnitsinBulk .ContentColumnas {
+    display: flex;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.CreateUnitsinBulk .ContentColumnas .col1 {
+    display: grid;
+    gap: 1rem;
+    width: min(100%, 45.8rem);
+}
+.CreateUnitsinBulk .ContentColumnas .col2 {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+    justify-items: center;
+    width: min(100%, 23.1rem);
+}
+.CreateUnitsinBulk .ContentColumnas .fenext-btn {
+    font-family: var(--fenext-font-gobal);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
 /*# sourceMappingURL=style.css.map */
